@@ -1,0 +1,186 @@
+{
+  "cookies": [
+    {
+      "name": "lang",
+      "value": "en",
+      "domain": ".graebert.com",
+      "path": "/",
+      "expires": 1689853696.169308,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.4.1272936910.1687261692",
+      "domain": ".sso.dev.graebert.com",
+      "path": "/",
+      "expires": 1721821694.63901,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.4.951630159.1687261692",
+      "domain": ".sso.dev.graebert.com",
+      "path": "/",
+      "expires": 1687348094,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".sso.dev.graebert.com",
+      "path": "/",
+      "expires": 1687261752,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tmp_email",
+      "value": "s%3Arajveer.singh%2Bkudoatf%40graebert.com.NI353woIRxxAMUlUVNVikHzw1jz5qGfYahdfdv9u82U",
+      "domain": "sso.dev.graebert.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sessionId",
+      "value": "2RT6PNReg1MRjD1ZpY1FbXHvrQc",
+      "domain": ".graebert.com",
+      "path": "/",
+      "expires": 1718797699.120831,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "utm_source",
+      "value": "",
+      "domain": ".graebert.com",
+      "path": "/",
+      "expires": 1689853696,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utm_term",
+      "value": "",
+      "domain": ".graebert.com",
+      "path": "/",
+      "expires": 1689853696,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utm_content",
+      "value": "",
+      "domain": ".graebert.com",
+      "path": "/",
+      "expires": 1689853696,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utm_medium",
+      "value": "",
+      "domain": ".graebert.com",
+      "path": "/",
+      "expires": 1689853696,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utm_campaign",
+      "value": "",
+      "domain": ".graebert.com",
+      "path": "/",
+      "expires": 1689853696,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".graebert.com",
+      "path": "/",
+      "expires": 1687261759,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_YVYPWNZLP9",
+      "value": "GS1.2.1687261700.1.0.1687261700.0.0.0",
+      "domain": ".graebert.com",
+      "path": "/",
+      "expires": 1721821700.251957,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://fluorine-master-prod-latest-ue1.dev.graebert.com",
+      "localStorage": [
+        {
+          "name": "latestNotify",
+          "value": "9c3e0eb711e5671037442786e254479e"
+        },
+        {
+          "name": "EULAAccepted",
+          "value": "undefined"
+        },
+        {
+          "name": "locale",
+          "value": "en-gb"
+        },
+        {
+          "name": "lang",
+          "value": "en"
+        },
+        {
+          "name": "isLoggedIn",
+          "value": "true"
+        },
+        {
+          "name": "boxRedirect",
+          "value": "undefined"
+        },
+        {
+          "name": "loadTimestamp",
+          "value": "1687261697147"
+        },
+        {
+          "name": "lastViewedVersion",
+          "value": "undefined"
+        },
+        {
+          "name": "CPAccepted",
+          "value": "undefined"
+        }
+      ]
+    },
+    {
+      "origin": "https://sso.dev.graebert.com",
+      "localStorage": [
+        {
+          "name": "intercom.intercom-state",
+          "value": "{\"app\":{\"color\":\"#FFC040\",\"secondaryColor\":\"#FFC040\",\"openConfig\":{\"layout\":\"default\",\"openTo\":\"home\",\"spaces\":[{\"type\":\"home\",\"label\":\"Home\",\"badge\":null},{\"type\":\"messages\",\"label\":\"Messages\",\"badge\":null},{\"type\":\"help\",\"label\":\"Help\",\"badge\":null},{\"type\":\"news\",\"label\":\"News\",\"badge\":null},{\"type\":\"tasks\",\"label\":\"Tasks\",\"badge\":null}],\"userHasReceivedChecklists\":false,\"userHasLiveNewsfeed\":false,\"userHasTickets\":false},\"selfServeSuggestionsMatch\":false,\"name\":\"Graebert GmbH\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":true,\"hubspotInstalled\":false,\"inboundMessages\":true,\"marketoEnrichmentInstalled\":false,\"outboundMessages\":true,\"googleAnalytics4Integration\":false,\"waitForOpenContent\":false},\"launcherLogoUrl\":null,\"boundWebEvents\":[],\"helpCenterSiteUrl\":\"http://help.graebert.com\",\"inboundConversationsDisabled\":false,\"isInstantBootEnabled\":true,\"alignment\":\"right\",\"horizontalPadding\":20,\"verticalPadding\":20,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":true},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":false},\"user\":{\"role\":\"visitor\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":null,\"metadata\":{}},\"operator\":{\"lastComposerEvent\":0},\"router\":{\"location\":null,\"action\":null,\"previousLocations\":[]}}"
+        }
+      ]
+    }
+  ]
+}
