@@ -1,0 +1,69 @@
+Project README
+This project uses Playwright for test automation and k6 for performance testing. Follow the instructions below to set up your environment and install the required dependencies.
+
+Prerequisites
+Node.js (LTS version recommended)
+npm (Node Package Manager)
+k6 for performance testing
+Installation
+1. Clone the Repository
+Clone the project repository and navigate into the project directory:
+
+git clone <repository_url>
+cd <repository_directory>
+2. Install Project Dependencies
+Install the project dependencies using npm:
+
+npm install
+3. Install Playwright as a Dev Dependency
+Install Playwright using npm with the --save-dev flag:
+
+npm install --save-dev @playwright/test
+After installing Playwright, install the necessary browsers:
+
+npx playwright install
+4. Set Up Environment Variables
+Create a .env file in the root of your project to store environment-specific variables such as API endpoints or credentials. For example:
+
+# .env file
+BASE_URL=https://app.careerflow.ai
+careerFlow_USERNAME=useremail
+careerFlow_PASSWORD=pw
+API_KEY=your_api_key_here
+Note: Make sure to update these values as needed and add the .env file to your .gitignore to prevent it from being committed.
+
+5. Install k6 for Performance Testing
+Option A: Windows (Using Chocolatey)
+If you have Chocolatey installed, open an elevated Command Prompt or PowerShell and run:
+
+choco install k6
+Option B: macOS (Using Homebrew)
+If you’re on macOS, install k6 via Homebrew:
+
+brew install k6
+Option C: Manual Installation
+Alternatively, download the Windows binary from the k6 installation page and add it to your system PATH.
+
+Running the Tests
+Running Playwright Tests
+Execute the Playwright test suite using the following command:
+
+npx playwright test
+Running Performance Tests with k6
+Navigate to the directory containing your performance_test.js script and run:
+
+k6 run performance_test.js
+Additional Information
+Documentation:
+
+Playwright Documentation
+k6 Documentation
+Troubleshooting:
+
+Playwright Browsers Not Installed:
+Run npx playwright install again to ensure all browsers are set up.
+Environment Variables Not Loading:
+Verify that the .env file exists in the project root and that you are using a package like dotenv to load variables in your Node.js scripts.
+Security Note:
+Ensure your .env file is added to .gitignore to prevent sensitive information from being committed to version control.
+
